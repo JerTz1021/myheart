@@ -13,6 +13,7 @@ struct myHeart {
 int main () {
     myHeart Heart;
 
+    cout << "To Melany: " << endl;
     cout << Heart.fact << endl;
 
     cout << "Enter 2110 or 404:" << endl;
@@ -26,4 +27,5 @@ int main () {
     } else {
         cout << "What the fuck are you typin" << endl;
     }
+
 }
